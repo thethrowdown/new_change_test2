@@ -3,7 +3,7 @@ on:
   workflow_call:
     inputs:
       job-name:
-      type: string
+       type: string
 jobs:                             #Required - Groups together all the jobs that run in the github_action_pipeline1 workflow defined above. 
   my-job:                         #Required - Defines a job named my-job. The child keys will define properties of the job.
     runs-on: ubuntu-latest        #Required - Configures the job to run on the latest version of an Ubuntu Linux runner. 
